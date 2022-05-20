@@ -20,6 +20,8 @@
     color: #2196F3;
 }
 
+/* ========== HEADER ========== */
+
 .page-header-email {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -48,25 +50,9 @@
     color: #2196F3;
 }
 
-.section-filter-button {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.63;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    color: #212121;
-}
+/* ========== /HEADER ========== */
 
-.section-filter-button:hover,
-.section-filter-button:focus {
-    background-color: #2196F3;
-    color: #FFFFFF;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-}
-
+/* ========== HERO ========== */
 
 .hero-title {
     font-family: 'Roboto', sans-serif;
@@ -88,6 +74,7 @@
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     color: #FFFFFF;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -96,5 +83,66 @@
 
 .hero-btn:hover,
 .hero-btn:focus {
-    
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
+
+/* ========== /HERO ========== */
+
+/* ========== ADVANTAGES ========== */
+
+.advantages-item-name {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.advantages-descr {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* ========== /ADVANTAGES ========== */
+
+
+
+
+
+
+
+
+
+
+/* ========== SECTION OUR PROJECTS ========== */
+
+.section-filter-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #212121;
+}
+
+.section-filter-button:hover,
+.section-filter-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+/* ========== /SECTION OUR PROJECTS ========== */
+
+
