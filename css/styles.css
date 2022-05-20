@@ -223,7 +223,6 @@ body {
     color: var(--second-color);
 }
 
-
 /* ========== /portfolio.html SECTION OUR PROJECTS ========== */
 
 /* ========== FOOTER ========== */
@@ -240,6 +239,5 @@ body {
 .address-footer-item-link:focus {
     color: var(--accent-color);
 }
-
 
 /* ========== /FOOTER ========== */
