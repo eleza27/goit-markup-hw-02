@@ -1,5 +1,9 @@
 :root {
     --accent-color: #2196F3;
+    --second-color: #757575;
+    --third-color: #FFFFFF;
+    --background-accent-color: #2196F3;
+    --background-second-color: #188CE8;
 }
 
 .list {
@@ -12,6 +16,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    color: #212121;
 }
 
 /* ========== LOGO ========== */
@@ -41,7 +46,6 @@ body {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #212121;
 }
 
 .menu-link:hover,
@@ -54,7 +58,7 @@ body {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-color);
 }
 
 .page-header-email:hover,
@@ -67,7 +71,7 @@ body {
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--second-color);
 }
 
 .page-header-phone-number:hover,
@@ -98,15 +102,15 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: #FFFFFF;
-    background: var(--accent-color);
+    color: var(--third-color);
+    background: var(--background-accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background: #188CE8;
+    background: var(--background-second-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -121,15 +125,13 @@ body {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #212121;
 }
 
 .advantages-descr {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--second-color);
 }
 
 /* ========== /ADVANTAGES ========== */
@@ -152,7 +154,6 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
-    color: #212121;
 }
 
 .section-filter-button:hover,
@@ -166,3 +167,26 @@ body {
 /* ========== /SECTION OUR PROJECTS ========== */
 
 
+
+
+
+
+
+
+/* ========== FOOTER ========== */
+
+.address-footer-item-link {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.address-footer-item-link:hover,
+.address-footer-item-link:focus {
+    color: var(--accent-color);
+}
+
+
+/* ========== /FOOTER ========== */
