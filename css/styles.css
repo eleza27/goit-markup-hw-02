@@ -1,6 +1,7 @@
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
 }
@@ -12,4 +13,56 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #212121;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #2196F3;
+}
+
+.page-header-email {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.page-header-email:hover,
+.page-header-email:focus {
+    color: #2196F3;
+}
+
+.page-header-phone-number {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.page-header-phone-number:hover,
+.page-header-phone-number:focus {
+    color: #2196F3;
+}
+
+.section-filter-button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: #212121;
+}
+
+.section-filter-button:hover,
+.section-filter-button:focus {
+    background-color: #2196F3;
+    color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
