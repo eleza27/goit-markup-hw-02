@@ -1,7 +1,9 @@
 :root {
+    --main-color: #212121;
     --accent-color: #2196F3;
     --second-color: #757575;
     --third-color: #FFFFFF;
+    --fourth-color: #ffffff99;
     --background-accent-color: #2196F3;
     --background-second-color: #188CE8;
 }
@@ -16,7 +18,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--main-color);
 }
 
 /* ========== LOGO ========== */
@@ -42,6 +44,7 @@ body {
 /* ========== HEADER ========== */
 
 .menu-link {
+    color: #212121;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -60,7 +63,7 @@ body {
 .page-header-email {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-color);
 }
@@ -73,7 +76,7 @@ body {
 .page-header-phone-number {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--second-color);
 }
@@ -134,7 +137,7 @@ body {
 
 .advantages-descr {
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-color);
 }
@@ -227,12 +230,20 @@ body {
 
 /* ========== FOOTER ========== */
 
+.address-map {
+    color: var(--third-color);
+}
+
+.address-email,
+.address-phone-number{
+    color: var(--second-color);
+}
+
 .address-footer-item-link {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: var(--third-color);
 }
 
 .address-footer-item-link:hover,
